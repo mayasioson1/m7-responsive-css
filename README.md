@@ -1,22 +1,9 @@
-# Module 8: Responsive CSS
+# Responsive CSS
 
-## Overview
 Given the prominence of mobile devices and tablets for internet usage, it's crucial that the websites that we build are engineered to look beautiful and work well on small devices. This module covers the skills necessary to begin implementing a **mobile-first** approach to web development. This approach assumes an initial build towards a mobile device, which is **progressively enhanced** on larger screens.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+Helpful links:
 
-**Contents**
-
-- [Resources](#resources)
-- [Media Queries](#media-queries)
-- [Flexbox](#flexbox)
-- [CSS Frameworks](#css-frameworks)
-  - [The Grid](#the-grid)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [w3schools Media Queries](http://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox Froggy!](http://flexboxfroggy.com/)
@@ -160,14 +147,14 @@ To use a CSS framework, you simply read the file(s) into the head section of you
 
 Once you have loaded a framework, you will want to assign the appropriate _classes_ to your HTML elements to apply the pre-written styles. For example, assiging a `<button>` element class `btn` will apply your styles (assuming you have loaded the framework, of course):
 
-![buttons with and without class btn](imgs/buttons.png)
+![buttons with and without class btn](m7-imgs/buttons.png)
 
 The classes you need to use are well described in the [documentation](http://materializecss.com/). While a framework can help with the styling of individual elements, it's real power is in helping layout elements for different screen sizes.
 
 ### The Grid
 While you can write media queries yourself, it can be easier (and more consistent) to leverage the pre-defined styles that are written in the CSS files of your framework. Both bootstrap and materialize allow you to create a grid system to arrange elements on the screen. The premise is that a **row** takes up the width of your screen, and is always 12 **columns** wide. Then, you can apply a pre-defined set of CSS classes to describe _how many columns_ you want an element to occupy given a certain screen size. Here is the table of screen sizes for each class for the Materialize framework:
 
-![table of sizes for materialize classes](imgs/size-table.png)
+![table of sizes for materialize classes](m7-imgs/size-table.png)
 
 For example, you could apply a class size of `col s12` to have an element take up 12 columns on a _small_ screen. You can also describe multiple classes to declare different layouts for different screen sizes:
 
