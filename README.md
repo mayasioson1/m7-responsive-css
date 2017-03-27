@@ -43,7 +43,7 @@ As you can see, you can make **multiple selections** to assign styles to differe
 ```
 Obviously, if a device width is greater than 992px, it is _also_ greater than 768px. Luckily, your browser is intelligent enough to apply the styles to the more specific CSS selector (992px), which is what you want to happen.
 
-To practice writing media queries, see [exercise-1](exercise-1).
+To practice writing media queries, see [exercise-1](http://github.com/info474-s17/m7-responsive-css/tree/master/exercise-1).
 
 ## Flexbox
 The **Flexbox** layout mode, introduced in CSS3, provides a simple syntax for distributing items within a container. While it is certainly possible to achieve the same layouts _without_ using a flexbox display, the layout provides a variety of advantages, such as **matching the vertical heights** of child items. In this section, we'll cover some of the basics of using Flexbox layouts.
@@ -123,7 +123,7 @@ While it is possible to leverage flexbox to change the number of items in a give
 ```
 Note the **mobile-first** approach used in the code section above: the default properties describe rendering on a small device, while the large device properties (`flex-basis:25%`) are assigned using a media query.
 
-To experiment with flexbox, checkout [flexboxfroggy](http://flexboxfroggy.com/), or see [exercise-2](exercise-2).
+To experiment with flexbox, checkout [flexboxfroggy](http://flexboxfroggy.com/), or see [exercise-2](http://github.com/info474-s17/m7-responsive-css/tree/master/exercise-2).
 
 ## CSS Frameworks
 A CSS framework is a pre-written set of CSS files that apply styles to your elements. Even for basic tasks, it makes sense to use a CSS framework to structure your code. They are particularly useful for making sites responsive based on screen size, which we'll describe below. There are [dozens](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html) of available frameworks, but the important thing is that you choose one that you like, and can build on the work of others.
@@ -174,4 +174,4 @@ For example, you could apply a class size of `col s12` to have an element take u
 ```
 Under the hood, materialize is (of course) using media queries to describe different behaviors at different screen sizes (there's no magic here).
 
-For practice using the grid system and Materialize framework, see [exercise-3](exercise-3).
+For practice using the grid system and Materialize framework, see [exercise-3](http://github.com/info474-s17/m7-responsive-css/tree/master/exercise-3).
