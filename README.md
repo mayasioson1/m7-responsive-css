@@ -59,7 +59,7 @@ To adjust this, we simply want to set the `box-sizing` property to `border-box`.
 }
 ```
 
-You'll likely include this in _all_ of your CSS files moving forward, and it should interfere with your stylings.
+You'll likely include this in _all_ of your CSS files moving forward, and it should _not_ (negatively) interfere with your other stylings.
 
 ### Structure
 To implement a flexbox layout, you'll create a flexbox **container**, and place multiple **items** inside that container. For example:
